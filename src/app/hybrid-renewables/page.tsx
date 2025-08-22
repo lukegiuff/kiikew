@@ -374,10 +374,15 @@ export default function HybridRenewables() {
                   whileHover={{ y: -10, scale: 1.02 }}
                   className="group relative bg-white/5 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300"
                 >
-                  {/* Product Image Placeholder */}
-                  <div className="w-full h-64 bg-gradient-to-br from-[#1F92CC]/20 to-[#2AB089]/20 rounded-xl mb-6 flex items-center justify-center border border-white/10">
-                    <Icon name="Image" size={48} className="text-white/40" />
-                    <span className="ml-3 text-white/40 text-lg">{product.name} Image</span>
+                  {/* Product Image */}
+                  <div className="w-full h-64 rounded-xl mb-6 overflow-hidden border border-white/10">
+                    <Image
+                      src={`/images/product_images/${product.id === 'spark-cube' ? 'SparkCube.jpg' : 'Terra.jpg'}`}
+                      alt={product.name}
+                      width={600}
+                      height={400}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
 
                   <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
@@ -491,7 +496,7 @@ export default function HybridRenewables() {
                   className="group relative bg-white/5 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300 h-full"
                 >
                   {/* Product Image Placeholder */}
-                  <div className="w-full h-56 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 rounded-xl mb-6 flex items-center justify-center border border-white/10">
+                  <div className="w-full h-56 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 rounded-xl mb-6 flex items-center justify-center border border-white/10 group-hover:from-yellow-500/30 group-hover:to-orange-500/30 transition-all duration-300">
                     <Icon name="Sun" size={40} className="text-white/40" />
                     <span className="ml-3 text-white/40 text-base">{product.name}</span>
                   </div>
