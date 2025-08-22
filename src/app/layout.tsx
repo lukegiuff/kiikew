@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kiikew - Modern Web Solutions",
-  description: "A beautiful, modern website built with Next.js, Tailwind CSS, Framer Motion, and powered by Decap CMS",
+  title: "Kiikew - Carbon-Free Power for Every Project",
+  description: "Kiikew means 'to heal' - Power to Heal. We power the future differently-cleaner, smarter, with purpose. Renewable-first. Hydrogen-ready. Hybrid-systems. Portable-power.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -23,9 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning={true}
       >
         {children}
       </body>
