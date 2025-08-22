@@ -647,7 +647,7 @@ export default function HybridRenewables() {
               <ul className="space-y-2 text-white/70">
                 <li><a href="#microgrids" className="hover:text-white transition-colors">MicroGrid Systems</a></li>
                 <li><a href="#solar" className="hover:text-white transition-colors">Solar Solutions</a></li>
-                <li><a href="/" className="hover:text-white transition-colors">All Solutions</a></li>
+                <li><Link href="/" className="hover:text-white transition-colors">All Solutions</Link></li>
               </ul>
             </div>
             
