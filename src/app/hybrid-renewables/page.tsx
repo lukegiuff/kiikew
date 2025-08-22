@@ -5,6 +5,7 @@ import { AnimatedSection } from '@/components/animated-section';
 import { Icon } from '@/components/ui/icon';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Product {
   id: string;
@@ -198,11 +199,8 @@ export default function HybridRenewables() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <motion.a
-              href="/"
-              whileHover={{ scale: 1.05 }}
-              className="flex items-center group"
-            >
+            <Link href="/" className="flex items-center group">
+              <motion.div whileHover={{ scale: 1.05 }}>
               <motion.div 
                 className="relative h-12 flex items-center justify-center transition-all duration-300"
                 whileHover={{ rotate: 1 }}
@@ -218,7 +216,8 @@ export default function HybridRenewables() {
                 {/* Subtle inner glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1F92CC]/10 to-[#2AB089]/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </motion.div>
-            </motion.a>
+              </motion.div>
+            </Link>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-1">

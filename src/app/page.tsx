@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { AnimatedSection } from '@/components/animated-section';
-import { FeatureCard } from '@/components/feature-card';
+
 import { Icon } from '@/components/ui/icon';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -287,7 +287,7 @@ export default function Home() {
 
             <AnimatedSection delay={0.6}>
               <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-lg">
-                Kiikew means "to heal" – We power the future differently-cleaner, smarter, with purpose. 
+                Kiikew means &ldquo;to heal&rdquo; – We power the future differently-cleaner, smarter, with purpose. 
                 <br className="hidden sm:block" />
                 <span className="text-white font-semibold">Renewable-first. Hydrogen-ready. Hybrid-systems. Portable-power.</span>
               </p>
@@ -389,7 +389,7 @@ export default function Home() {
                 </h2>
                 <div className="space-y-6 text-white/80 text-base sm:text-lg leading-relaxed">
                   <p>
-                    <strong className="text-[#2AB089]">Kiikew means "to heal"</strong> – That's our purpose – Power to Heal. 
+                    <strong className="text-[#2AB089]">Kiikew means &ldquo;to heal&rdquo;</strong> – That&rsquo;s our purpose – Power to Heal. 
                     We power the future differently-cleaner, smarter, with purpose.
                   </p>
                   <ul className="space-y-3">
@@ -453,7 +453,7 @@ export default function Home() {
                 Our Values: HEAL
               </h2>
               <p className="text-lg sm:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-                HEAL is more than a word. It's our guiding framework that sits at the heart of everything we do.
+                HEAL is more than a word. It&rsquo;s our guiding framework that sits at the heart of everything we do.
               </p>
             </div>
           </AnimatedSection>
@@ -496,7 +496,7 @@ export default function Home() {
                 Ready to Power Your Future?
               </h3>
               <p className="text-xl text-white/80 mb-8">
-                Join the clean energy transition with solutions designed for North America's toughest environments
+                Join the clean energy transition with solutions designed for North America&rsquo;s toughest environments
               </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.a
