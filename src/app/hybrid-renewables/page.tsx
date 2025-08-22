@@ -381,9 +381,7 @@ export default function HybridRenewables() {
                       alt={product.name}
                       width={600}
                       height={400}
-                      className={`w-full h-full group-hover:scale-105 transition-transform duration-300 ${
-                        product.id === 'terra-microgrid' ? 'object-cover object-bottom' : 'object-cover object-center'
-                      }`}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 
