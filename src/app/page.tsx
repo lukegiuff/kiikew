@@ -249,7 +249,7 @@ export default function Home() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section className="relative z-10 pt-20 pb-20 sm:pb-32 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+      <section className="relative z-10 pt-32 pb-20 sm:pb-32 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
         {/* Hero Background Image */}
         <div className="absolute inset-0 z-0">
           <div 
@@ -326,7 +326,7 @@ export default function Home() {
       </section>
 
       {/* Quick Links Section */}
-      <section id="products" className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="products" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center mb-12 sm:mb-16">
@@ -379,7 +379,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="about" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <AnimatedSection direction="left">
@@ -445,7 +445,7 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section id="values" className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="values" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center mb-12 sm:mb-16">
@@ -487,7 +487,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="quote" className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="quote" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="max-w-4xl mx-auto text-center">

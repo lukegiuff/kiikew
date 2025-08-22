@@ -355,7 +355,7 @@ export default function HybridRenewables() {
       </section>
 
       {/* MicroGrids Section */}
-      <section className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="microgrids" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center mb-12 sm:mb-16">
@@ -471,7 +471,7 @@ export default function HybridRenewables() {
       </section>
 
       {/* Solar Solutions Section */}
-      <section className="relative z-10 py-16 sm:py-20 lg:py-24">
+      <section id="solar" className="relative z-10 py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center mb-12 sm:mb-16">
